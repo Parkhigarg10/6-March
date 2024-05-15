@@ -1,0 +1,228 @@
+
+        * {
+            margin: 0;
+        }
+
+        .navbar {
+            position: fixed;
+            height: 12vh;
+            width: 100%;
+            background-color: rgba(62, 131, 97, 0.476);
+            padding-top: 3vh;
+            z-index: 1;
+        }
+
+        .first {
+            height: 80vh;
+            width: 100%;
+            background-color: rgb(229, 233, 255);
+        }
+
+        .second {
+            height: 25vh;
+            width: 90.9%;
+            background-color: rgb(26, 17, 55);
+            padding-top: 2vh;
+            padding-left: 9vw;
+        }
+
+        .box {
+            height: 7vh;
+            width: 16vw;
+            display: flex;
+        }
+
+        .logo {
+            height: 8vh;
+            width: 8vw;
+            margin-top: 1vh;
+            margin-right: -1vw;
+
+        }
+
+        .text {
+            font-family: Bebas Neue;
+            font-size: x-large;
+        }
+
+        .anchor {
+            padding-top: 2.5vh;
+            margin-left: 22vw;
+        }
+
+        .ae {
+            text-decoration: none;
+            color: black;
+            font-size: 1.4rem;
+            margin-right: 2vw;
+            font-family: Rajdhani;
+            font-weight: bold;
+        }
+
+        .joinus {
+            margin-left: auto;
+            margin-right: 1vw;
+            margin-top: 1.5vh;
+            border: 1px solid rgb(26, 17, 55);
+            border-radius: 25px;
+            width: 8vw;
+            padding-left: 1.6vw;
+            padding-top: 2vh;
+            height: 5.5vh;
+            background-color: black;
+        }
+
+        .ee {
+            text-decoration: none;
+            color: white;
+            font-family: Rajdhani;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .ae:hover {
+            text-decoration: underline;
+            color: rgb(26, 17, 55);
+        }
+
+        .ee:hover {
+            text-decoration: underline;
+        }
+
+        body {
+            display: flex;
+            min-height: 100vh;
+            
+            /* background: #000000; */
+        }
+
+        .header {
+            background-color: #ffffff;
+            color: #050505;
+            left: 0;
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 100%;
+            z-index: 9999999;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 800;
+            color: rgb(0, 0, 0)
+        }
+
+        ::selection {
+            color: #000000;
+            background: #ffffff;
+        }
+
+        .wrapper {
+            margin-top: 20vh;
+            margin-left: 5vw;
+            height: 65vh;
+            width: 85vw;
+            padding: 30px;
+            border: 1px solid;
+            border-radius: 7px;
+            background: rgba(26, 17, 55, 0.24);
+            box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+            /* background: linear-gradient(0.50turn, #7e87e3,     #000b88d4); */
+            /* background: linear-gradient(#e66465, #9198e5); */
+        }
+
+        .wrapper header {
+            font-size: 30px;
+            font-weight: 500;
+            font-family: Bebas Neue;
+        }
+
+        .wrapper form {
+            margin: 40px 0 20px 0;
+        }
+
+        form :where(input, select, button) {
+            width: 100%;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+        }
+
+        form p {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        form input {
+            height: 50px;
+            font-size: 17px;
+            padding: 0 15px;
+            border: 1px solid #999;
+        }
+
+        form input:focus {
+            padding: 0 14px;
+            border: 2px solid #0a0a0a;
+        }
+
+        form .drop-list {
+            display: flex;
+            margin-top: 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .drop-list .select-box {
+            display: flex;
+            width: 40vw;
+            height: 45px;
+            align-items: center;
+            border-radius: 5px;
+            justify-content: center;
+            border: 1px solid #999;
+        }
+        option{
+            width: 40vw;
+            text-align: center;
+        }
+
+        .select-box img {
+            max-width: 21px;
+        }
+
+        .select-box select {
+            /* width: auto; */
+            font-size: 16px;
+            background: none;
+            /* margin: 0 -5px 0 5px; */
+        }
+
+
+        .drop-list {
+            cursor: pointer;
+            margin-top: 30px;
+            font-size: 22px;
+            /* height: 10vh; */
+        }
+
+        form .exchange-rate {
+            font-size: 17px;
+            margin: 20px 0 30px;
+        }
+
+        form button {
+            height: 52px;
+            color: white;
+            font-size: 17px;
+            cursor: pointer;
+            background: black;
+            transition: 0.3s ease;
+        }
+        form button:hover{
+        text-decoration: underline;
+        }
+        header {
+            color: rgb(0, 0, 0);
+        }
